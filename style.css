@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #005eff;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.articles {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer form {
+  margin: 1rem 0;
+}
+
+footer input[type="email"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+}
+
+footer button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #00d26a;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
